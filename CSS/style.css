@@ -1,0 +1,81 @@
+/* RESET DI BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+i{
+    color: white;
+}
+
+/* header */
+
+header{
+ background: #ff6900;
+ color: white;
+}
+
+.navbar-container{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.menu{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-social-icon{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo a{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+ width: 20%;
+}
+
+
+
+
+.nav-social-icon a{
+ margin: 8px;
+}
+
+.menu ul{
+   display: inline-flex;
+  list-style: none;
+}
+.menu ul li{
+
+    margin: 6px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+
+}
