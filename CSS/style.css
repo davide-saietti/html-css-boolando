@@ -21,7 +21,7 @@ header {
 }
 
 .navbar-container {
-  padding: 6px;
+  padding: 12px;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -87,7 +87,6 @@ header {
   gap: 16px;
   align-items: center;
   justify-content: center;
-
 }
 
 .item-card {
@@ -115,32 +114,28 @@ header {
   background: red;
 }
 
-.sostenibilità{
-    position: absolute;
-      bottom: 120px;
+.sostenibilità {
+  position: absolute;
+  bottom: 120px;
   left: 48px;
   padding: 0.3rem 0.5rem;
   font-size: 0.8rem;
   font-weight: bold;
   color: white;
   background: green;
-
-
 }
-.only-sostenibilità{
-    position: absolute;
-      bottom: 120px;
+.only-sostenibilità {
+  position: absolute;
+  bottom: 120px;
   left: 0;
   padding: 0.3rem 0.5rem;
   font-size: 0.8rem;
   font-weight: bold;
   color: white;
   background: green;
-
-
 }
 
-.preferiti{
+.preferiti {
   position: absolute;
   top: 10px;
   right: 0;
@@ -152,35 +147,62 @@ header {
   z-index: 1;
 }
 
-.image-container .img2{
+.image-container .img2 {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-
 }
 
-.image-container:hover img{
-opacity: 0;
+.image-container:hover img {
+  opacity: 0;
 }
 
-.image-container:hover .img2{
+.image-container:hover .img2 {
   opacity: 1;
 }
 
-.brand{
+.brand {
   color: grey;
   font-weight: 700;
 }
 
-.new-price{
+.new-price {
   color: red;
   font-weight: 700;
 }
 
-.old-price{
+.old-price {
   text-decoration-line: line-through;
-    color: grey;
+  color: grey;
   font-weight: 700;
   margin-left: 4px;
+}
+
+/* footer section */
+
+footer {
+  background: #2e2d2d;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+}
+
+.footer-text {
+  margin-left: 180px;
+}
+.footer-text a {
+  color: white;
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+.footer-social {
+  margin-right: 180px;
+  text-align: center;
+}
+
+.footer-icons i {
+  padding: 2px;
 }
